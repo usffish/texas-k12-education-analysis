@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "Validate Python Coding Standards",
+  "description": "When a Python file is saved in scripts/ or notebooks/, remind the agent to check that it follows project standards: inline comments on every logical step, relative paths only, and pandas for all data manipulation.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "scripts/*.py",
+      "notebooks/*.ipynb"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A Python file was just edited. Review it against the project coding standards from the steering file: (1) every logical step has an inline comment, (2) only relative paths are used — no hardcoded absolute paths, (3) pandas is used for all data manipulation, (4) all output files go to data/cleaned/ or outputs/figures/ as appropriate. If any standard is violated, flag it and suggest a fix."
+  }
+}

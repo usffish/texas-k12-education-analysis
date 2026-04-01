@@ -1,0 +1,16 @@
+[
+  {
+    "dataset": "leavers_2023_24",
+    "source_url": "https://tea.texas.gov/media/412551",
+    "file_format": "xlsx",
+    "local_path": "data/raw/leavers_2023_24.xlsx",
+    "collected_at": "2026-04-01T13:13:02.722981Z"
+  },
+  {
+    "dataset": "enrollment_2023_24",
+    "source_url": "https://tea.texas.gov/reports-and-data/school-performance/accountability-research/enrollment-trends",
+    "file_format": "html",
+    "local_path": "data/raw/enrollment_2023_24.html",
+    "collected_at": "2026-04-01T13:13:02.722981Z"
+  }
+]
