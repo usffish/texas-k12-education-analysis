@@ -1,8 +1,0 @@
-pandas
-matplotlib
-seaborn
-openpyxl
-requests
-pytest
-hypothesis
-pytest-mock
