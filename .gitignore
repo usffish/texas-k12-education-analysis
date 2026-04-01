@@ -1,0 +1,24 @@
+# Kiro internal files
+.kiro/
+
+# VS Code
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Data files (downloaded at runtime)
+data/raw/
+data/cleaned/
+
+# Generated outputs
+outputs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
