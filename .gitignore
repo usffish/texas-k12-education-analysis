@@ -10,15 +10,26 @@ __pycache__/
 *.pyo
 .pytest_cache/
 
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
 # Data files (downloaded at runtime)
 data/raw/
 data/cleaned/
+notebooks/data/
 
 # Generated outputs
 outputs/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Secrets / environment
+.env
+.env.*
 
 # OS
 .DS_Store
