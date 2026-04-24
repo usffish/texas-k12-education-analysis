@@ -1,15 +1,14 @@
-# School Projects
+# Texas K-12 Education Analysis
 
-End-to-end data analytics pipelines from the University of South Florida M.S. in AI & Business Analytics program.
+End-to-end data pipeline analyzing Texas Education Agency (TEA) K-12 leaver and dropout data for the 2023-24 school year across 1,169 districts.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![matplotlib](https://img.shields.io/badge/matplotlib-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-## Notebooks
+## Overview
 
-### Texas K-12 Education Data Analysis
 An end-to-end data pipeline analyzing Texas Education Agency (TEA) K-12 leaver and dropout data for the 2023-24 school year across 1,169 districts.
 
 **What it does:**
@@ -29,7 +28,7 @@ An end-to-end data pipeline analyzing Texas Education Agency (TEA) K-12 leaver a
 ## Project Structure
 
 ```
-School-Projects/
+texas-k12-education-analysis/
 ├── notebooks/
 │   ├── analysis.ipynb        # Texas K-12 TEA data analysis pipeline
 │   └── data/                 # Raw and cleaned datasets (not committed)
@@ -40,8 +39,8 @@ School-Projects/
 ## Setup
 
 ```bash
-git clone https://github.com/usffish/School-Projects.git
-cd School-Projects
+git clone https://github.com/usffish/texas-k12-education-analysis.git
+cd texas-k12-education-analysis
 pip install -r requirements.txt
 jupyter notebook notebooks/analysis.ipynb
 ```
