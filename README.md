@@ -1,6 +1,11 @@
 # School Projects
 
-A collection of data analytics coursework from the **University of South Florida** M.S. in AI & Business Analytics program.
+End-to-end data analytics pipelines from the University of South Florida M.S. in AI & Business Analytics program.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![matplotlib](https://img.shields.io/badge/matplotlib-3776AB?style=flat-square&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 ## Notebooks
 
@@ -37,7 +42,7 @@ School-Projects/
 ```bash
 git clone https://github.com/usffish/School-Projects.git
 cd School-Projects
-pip install pandas matplotlib seaborn openpyxl requests
+pip install -r requirements.txt
 jupyter notebook notebooks/analysis.ipynb
 ```
 
